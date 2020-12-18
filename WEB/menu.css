@@ -1,0 +1,74 @@
+ /*body*/
+ body {
+        font-family: Georgia, sans-serif;
+        font-size: 100%;
+        line-height: 1.75em;
+        background-color: lightblue;
+        background-image: url(images/bullseye.png);
+    }
+
+/*h1*/
+
+    h1 {
+        font-weight: bold;
+        font-family: "Calibri Light";
+        font-size: 2em;
+        color: olive;
+        text-shadow: .05em .05em .1em lightslategray;
+    }
+
+    h2 {
+        font-size: 1em;
+        text-transform: uppercase;
+        letter-spacing: .5em;
+        color: olive;
+    }
+
+    dt {
+        font-weight: bold;
+    }
+
+    b {
+        font-style: italic;
+    }
+
+    dt b {
+        color: tomato;
+    }
+
+    #info p {
+        color: gray;
+    }
+
+    .price {
+        font-family: Georgia, serif;
+        font-style: italic;
+        color: gray;
+    }
+
+    .label {
+        font-weight: bold;
+        font-variant: small-caps;
+        font-style: normal;
+    }
+
+    p.warning {
+        font-size: normal;
+        color: red;
+    }
+
+    h1,
+    h2,
+    #info {
+        text-align: center;
+    }
+
+    h2+p {
+        text-align: center;
+        font-style: italic;
+    }
+
+    dt {
+        font-weight: bold;
+        color: sienna;
+    }
