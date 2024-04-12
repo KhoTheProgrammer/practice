@@ -1,7 +1,5 @@
-s = input("Do you agree?: ")
-
-# Converts input to lowercases
-s = s.lower()
+# Get user input and converts it to lowercases
+s = input("Do you agree?: ").lower()
 
 #  Check if the user agreed or not
 if s in ["y", "yes"]:
