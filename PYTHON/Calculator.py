@@ -11,7 +11,7 @@ def get_int(prompt):
         try:
             return int(input(prompt))
         except ValueError:
-            print("Not a number")
+            pass
             
 main()
 
