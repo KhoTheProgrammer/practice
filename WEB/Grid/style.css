@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: grid;
+    grid-auto-rows: 1fr 4fr 1fr 79px 5fr;
+}
+#one{
+    padding: 10px;
+}
+ #one, #four{
+    background-color: white;
+ }
+ #two{
+    background-color: #28537c;
+    color: white;
+    text-align: center;
+ }
+ #three{
+    background-color: black;
+    color: white;
+ }
+ .container #one{
+    display: flex;
+    justify-content: space-between;
+ }
+ .container #one ul{
+    display: flex;
+ }
+ .container #one ul li{
+    list-style-type: none;
+    margin: 0 50px;
+ }
+ #two h1{
+    font-size: 60px;
+    margin-bottom: -5px;
+ }
+ #two p{
+    font-size: 28px;
+    margin-bottom: -20px;
+ }
+ #three p{
+    font-size: 20px;
+    text-align: center;
+ }
+ #three span{
+    font-weight: bold;
+ }
+ #four{
+    display: flex;
+    justify-content: space-around;
+ }
+ #four ul{
+    display: flex;
+    justify-content: center;
+ }
+ #four ul li{
+    list-style: none;
+    padding: 10px;
+    margin: 0 50px;
+    position: relative;
+ }
+ #four p{
+    background-color: #28537c;
+    height: min-content;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+ }
+ #five{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: center;
+    background-color: #80838e;
+ }
+ #right{
+    display: grid;
+    grid-auto-rows: repeat(2, 1fr);
+    grid-row-gap: 1em;
+ }
+
+
+
+
+
+
+
