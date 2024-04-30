@@ -1,0 +1,17 @@
+a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 1em 2em;
+    width: 7em;
+    border-radius: 1.5em;
+    color: white;
+    background-color: mediumblue;
+    transition-property: font-size;
+    transition-duration: 10s;
+    transition-timing-function: ease-in-out;
+}
+a:hover, a:focus, a:active{
+    font-size: 100px;
+}
