@@ -1,0 +1,5 @@
+#vscode folder
+.vscode/
+
+#package manager folder
+JAVASCRIPT/node_modules/
