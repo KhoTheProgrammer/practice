@@ -3,6 +3,7 @@ class Rectangle
     // Public Members
     public:
         Rectangle();
+        Rectangle(float length, float width);
         ~Rectangle();
         void setLength(float length);
         void setWidth(float width);

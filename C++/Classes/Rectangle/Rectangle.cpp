@@ -7,6 +7,11 @@ Rectangle::Rectangle()
     width = 0;
 }
 
+Rectangle::Rectangle(float length, float width){
+    this->length = length;
+    this->width = width;
+}
+
 // Deconstructor doing nothing
 Rectangle::~Rectangle()
 {
