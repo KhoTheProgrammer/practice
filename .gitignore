@@ -3,3 +3,6 @@
 
 #package manager folder
 JAVASCRIPT/node_modules/
+
+#executable files from c++ and c
+*.exe
