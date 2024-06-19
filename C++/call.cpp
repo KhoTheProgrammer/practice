@@ -15,6 +15,7 @@ int main()
          << "b: " << b << endl;
 }
 
+// Changes the values of a and b
 void add(int *a, int *b)
 {
     *a = 10;
