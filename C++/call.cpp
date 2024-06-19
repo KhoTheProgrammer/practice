@@ -9,6 +9,7 @@ int main()
     cout << "**********Before********" << endl;
     cout << "a: " << a << endl
          << "b: " << b << endl;
+    // Adding 5 to a and 3 to b
     add(&a, &b);
     cout << "**********After********" << endl;
     cout << "a: " << a << endl
