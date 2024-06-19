@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// Function prototype
 void add(int *a, int *b);
 
 int main()
